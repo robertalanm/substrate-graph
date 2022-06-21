@@ -54,7 +54,7 @@ services:
     command: ["-vv", "--config", "${ARCHIVER_CONFIG}", "--spec", "${CHAINSPEC}"]
     volumes:
       - ./config:/config
-      - ./data/substrate/chains/dev/db:/archive/data
+      - ./root/archive/data:/archive/data
     links:
       - postgres
       - substrate
