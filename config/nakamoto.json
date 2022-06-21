@@ -10,7 +10,6 @@
     "protocolId": null,
     "properties": null,
     "consensusEngine": null,
-    "codeSubstitutes": {},
     "genesis": {
       "runtime": {
         "system": {
